@@ -1,0 +1,11 @@
+print("Bienvenid@")
+print("Voy a calcular tu Índice de Masa Corporal (IMC)")
+print("Dime, en primer lugar, tu nombre")
+nombre = input()
+print("Vale", nombre ,", dime tu estatura (en cm)")
+estatura = input()
+estatura = float(estatura)/100
+print("Bien", nombre, ", ahora dime tu peso (en kilogramos)")
+peso = float(input())
+imc = round(peso/(estatura**2),2)
+print(nombre, ", tu I.M.C. es", imc)
